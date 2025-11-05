@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{ --calendar-border: #e5e7eb }
+
+/* focus-visible styles */
+:focus-visible { outline: 3px solid rgba(99, 102, 241, 0.6); outline-offset: 2px; }
+
+
+/* Event badge presets (colors applied inline where possible) */
+.event-badge {
+  @apply text-xs rounded px-1 py-[2px] truncate transition-all duration-150;
+}
+.event-badge:hover { transform: translateY(-2px); box-shadow: 0 6px 12px rgba(0,0,0,0.06); }
+
+/* Week view hourline */
+.week-hour-line { background: rgba(0,0,0,0.04); height: 1px; position: absolute; left:0; right:0; }
+
+/* small helper for event cards in week view */
+.week-event { border-radius: 6px; padding: 4px; box-shadow: 0 2px 6px rgba(2,6,23,0.06); }
