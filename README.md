@@ -131,8 +131,8 @@ The static files will be generated in the `storybook-static` directory.
 ## Submission Details
 
 Assignment: Calendar Component UI – Uzence Internship  
-Author: [Your Name]  
-Deployed Link: https://calender-component-assignment.netlify.app/  
+Author: Abhishek Chauhan  
+Deployed Link: https://calender-component-assignment.netlify.app/ OR http://172.25.112.1:6006/?path=/story/calendar-calendarview--default 
 Framework: React, TypeScript, Tailwind CSS, Storybook  
 Testing: Jest and React Testing Library
 
