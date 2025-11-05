@@ -75,20 +75,17 @@ https://calender-component-assignment.netlify.app/
 ## Project Structure
 
 ```
-src/
- ├── components/
- │    └── Calendar/
- │         ├── CalendarView.tsx
- │         ├── MonthView.tsx
- │         ├── WeekView.tsx
- │         ├── CalendarCell.tsx
- │         └── EventModal.tsx
- ├── hooks/
- │    └── useCalendar.ts
- ├── utils/
- │    └── date.utils.ts
- └── styles/
-      └── globals.css
+
+calendar-view-abhishek/
+├── .storybook/
+├── src/
+│   ├── components/Calendar
+│   ├── hooks/
+│   ├── utils/
+│   └── styles/
+├── package.json
+└── README.md
+
 ```
 
 ---
